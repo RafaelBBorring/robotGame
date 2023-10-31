@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint 04</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div id="arena-container">
+        
+        <div class="overlay">
+            <div id="vida-robo1">Vida Robô 1 100</div>
+            <div id="vida-robo2">Vida Robô 2 100</div>
+        </div>
+        
+        <div id="arena">
+            <img id="robo1" class="robo" src="img/Robo01.png" alt="Robô 1">
+            <img id="robo2" class="robo" src="img/Robo02.png" alt="Robô 2">
+        </div>
+
+        <div id="vitoria" style="display: none;">
+            <h2>Vitória do Robô Vencedor!</h2>
+            <button class="button-50" role="button" id="restartButton">Reiniciar</button>
+        </div>
+    </div>
+
+    
+
+    <script src="js/jogo.js"></script>
+</body>
+</html>
